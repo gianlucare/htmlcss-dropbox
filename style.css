@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+ul, ol , menu {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container1 {
+    margin: 0 auto;
+    max-width: 100px;
+}
+
+.container2 {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container3 {
+    margin: 0 auto;
+}
+
+.div1 {
+    display: flex;
+}
+
+.main-header .div1 {
+    padding: 30px;
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+}
+
+.element-menu {
+    padding: 0 20px;
+    line-height: 35px;
+}
