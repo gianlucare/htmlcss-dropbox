@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Open Sans';
+}
+
 ul, ol , menu {
     list-style: none;
 }
@@ -59,17 +63,17 @@ a {
 }
 
 .section1 {
-    background-color:aliceblue; 
+    background-color:rgb(167, 197, 223); 
     padding-top: 70px;
 }
 
 .titleh1 {
     margin-bottom: 48px;
-    font-size: 48px;
+    font-size: 80px;
 }
 
 img {
-    max-width: 100px;
+    max-width: 750px;
 }
 
 .column1 {
@@ -78,4 +82,16 @@ img {
 
 .column2 {
     width: calc((100% / 3)*2);
+}
+
+.icon {
+    font-size: 50px;
+    margin-top: auto;
+}
+
+.section1, .column1 {
+    display: flex;
+   flex-direction: column;
+   gap: 40px;
+   align-items: flex-start;
 }
