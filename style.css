@@ -19,7 +19,7 @@ a {
 
 .container1 {
     margin: 0 auto;
-    max-width: 100px;
+    max-width: 1000px;
 }
 
 .container2 {
@@ -94,4 +94,18 @@ img {
    flex-direction: column;
    gap: 40px;
    align-items: flex-start;
+}
+
+.piani {
+    padding: 80px 0 30px 0; 
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleh2 {
+    margin-bottom: 20px;
+    font-size: 30px;
 }
