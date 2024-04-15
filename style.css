@@ -47,15 +47,35 @@ a {
 }
 
 .button {
-        text-decoration: none;
-        font: bold 12px arial;
-        padding: 10px 20px;
-        cursor: pointer;
-        text-align: center;
-        outline: none;
-        color: white;
-        border: solid 1px #0041cd;
-        background-color: #0041cd;
+    text-decoration: none;
+    font: bold 12px arial;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: white;
+    border: solid 1px #0041cd;
+    background-color: #0041cd;
 }
 
+.section1 {
+    background-color:aliceblue; 
+    padding-top: 70px;
+}
 
+.titleh1 {
+    margin-bottom: 48px;
+    font-size: 48px;
+}
+
+img {
+    max-width: 100px;
+}
+
+.column1 {
+    width: calc(100% / 3);
+}
+
+.column2 {
+    width: calc((100% / 3)*2);
+}
