@@ -29,6 +29,7 @@ a {
 
 .div1 {
     display: flex;
+    justify-content: space-between;
 }
 
 .main-header .div1 {
@@ -44,3 +45,17 @@ a {
     padding: 0 20px;
     line-height: 35px;
 }
+
+.button {
+        text-decoration: none;
+        font: bold 12px arial;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: center;
+        outline: none;
+        color: white;
+        border: solid 1px #0041cd;
+        background-color: #0041cd;
+}
+
+
