@@ -138,3 +138,19 @@ img {
     border-bottom: 1px solid black; 
     padding: 15px 0;
 }
+
+.body-card {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 12px;
+}
+
+.body-card .button {
+    width: 100%;
+}
+
+.checkblue {
+    color:rgb(0, 51, 128);
+}
