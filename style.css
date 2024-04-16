@@ -192,3 +192,29 @@ img {
     border: solid 1px #515151;
     background-color: #ffffff;
 }
+
+.forms {
+    margin: 6% 0;
+}
+
+.title-forms {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.form {
+    width: calc(100% / 3 - 50px);
+    float: left;
+}
+
+.form .img-form img{
+    max-width: 100%;
+}
+.form .text-form h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+
