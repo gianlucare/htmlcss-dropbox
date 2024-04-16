@@ -109,3 +109,32 @@ img {
     margin-bottom: 20px;
     font-size: 30px;
 }
+
+.radio-botton {
+    margin: 25px 0;
+}
+
+.card-total {
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid black; 
+}
+
+.card-total .column3 {
+    width: calc((100% - 100px) / 3);
+   flex-grow: 1;
+   flex-basis: 0;
+}
+
+.column4 {
+    width: 100%;
+}
+
+.header-card {
+    text-align: center;
+    border-bottom: 1px solid black; 
+    padding: 15px 0;
+}
