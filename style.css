@@ -121,6 +121,7 @@ img {
 
 .card {
     border: 1px solid black; 
+    height: 100%;
 }
 
 .card-total .column3 {
@@ -143,7 +144,7 @@ img {
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     font-size: 12px;
 }
 
@@ -152,5 +153,6 @@ img {
 }
 
 .checkblue {
-    color:rgb(0, 51, 128);
+    color:rgb(5, 71, 170);
 }
+
