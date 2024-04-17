@@ -177,8 +177,7 @@ img {
 
 .img-partner{
     width: 48%;
-    /**flex-direction: column;**/
-    float: left
+    display: flex;
 }
 
 .img-partner img{
@@ -188,8 +187,7 @@ img {
 .text{
     padding-top: 40px;
     width: 48%;
-    /**flex-direction: column;**/
-    float: right;
+    display: flex;
 }
 
 .text h3{
@@ -225,10 +223,11 @@ img {
 
 .form {
     width: calc(100% / 3 - 50px);
-    /**flex-direction: column;flex-direction:row;**/
-    float: left;
     margin-left: 50px;
-    flex-direction:row;
+}
+
+.flex-container {
+    display: flex;
 }
 
 .form .img-form img{
@@ -238,8 +237,6 @@ img {
     font-size: 25px;
     margin-bottom: 20px;
 }
-
-
 
 
 
