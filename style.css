@@ -8,6 +8,10 @@ html {
     font-family: 'Open Sans';
 }
 
+body {
+    font-size: 15px;
+}
+
 ul, ol , menu {
     list-style: none;
 }
@@ -187,17 +191,18 @@ img {
 .text{
     padding-top: 40px;
     width: 48%;
-    display: flex;
 }
 
 .text h3{
     font-size: 30px;
     margin-bottom: 20px;
+    margin-left: 50px;
 }
 
 .text p {
     line-height: 200%;
     margin-bottom: 30px;
+    margin-left: 50px;
 }
 
 .button-white {
@@ -217,7 +222,7 @@ img {
 }
 
 .title-forms {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 60px;
 }
 
@@ -239,7 +244,25 @@ img {
 }
 
 
+.container-faq {
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.title-faq {
+    padding:20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.domanda {
+    padding: 20px;
+    font-size: 85%;
+}
 
+
+
+footer {
+    font-size: 85%;
+} 
 
 .footer-main {
     background-color: black;
@@ -250,9 +273,7 @@ img {
 .nav-footer {
     margin-right: 50px;
     width: calc(100% / 5 - 50px);
-    justify-content: flex-start;
-    align-items: flex-start;
-    
+
 }
 
 .nav-footer h3 {
