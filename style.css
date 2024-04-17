@@ -239,10 +239,35 @@ img {
     margin-bottom: 20px;
 }
 
-.title-coperation {
-  margin-top: 200px;
-  padding-bottom: 50px;
+
+
+
+
+
+.footer-main {
+    background-color: black;
+    color:white;
+    padding: 5% 0;
 }
 
+.nav-footer {
+    margin-right: 50px;
+    width: calc(100% / 5 - 50px);
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
 
+.nav-footer h3 {
+    font-size: 25px;
+    margin-bottom: 10%;
+}
 
+.nav-footer li {
+    list-style:none;
+    margin: 3% 0;
+}
+
+.nav-footer a {
+    color:white;
+}
