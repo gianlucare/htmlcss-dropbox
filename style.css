@@ -137,8 +137,17 @@ img {
 .column4 {
     width: 100%;
 }
+ 
+.box-check {
+    border:none;
+}
+
+.box-check .two {
+    margin-left: 40px;
+}
 
 .header-card {
+
     text-align: center;
     border-bottom: 1px solid black; 
     padding: 15px 0;
@@ -244,6 +253,105 @@ img {
 }
 
 
+
+.company {
+    height: calc(100vw / 3);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+  }
+  
+  .company .row {
+    flex-wrap: wrap;
+  }
+  
+  .card2 {
+    width: calc(100% / 3);
+  }
+  
+  .card2:not(.row) {
+    padding: 50px;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  
+  .card2:last-child.row {
+    justify-content: flex-end;
+  }
+  
+  .card2 h5 {
+    font-weight: normal;
+  }
+  
+  .card2 span {
+    font-weight: bold;
+  }
+  
+  .card2 p:last-child {
+    margin-top: 55px;
+  }
+  
+  .company hr {
+    margin: 45px 0;
+  }
+  
+  .company .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 50%;
+    height: 50%;
+  }
+  
+  .company .img img {
+    filter: invert(1);
+  }
+  
+  .company sup {
+    font-size: 20px;
+  }
+
+  .designit {
+    background-color: #92bc8c;
+    border: 10px solid #d1e9cd;
+  }
+  
+  .arizona {
+    background-color: #860f3e;
+  }
+  
+  .florida {
+    background-color: #027eaf;
+  }
+  
+  .topps {
+    background-color: #ef1414;
+  }
+  
+  .world-bicycle {
+    background-color: #ef1414;
+  }
+  
+  .hearst {
+    background-color: #8fb6d5;
+  }
+  
+  .lonely {
+    background-color: #011b81;
+  }
+  
+  .channel {
+    background-color: #d2af15;
+  }
+
+  .flex-container1 {
+    flex-direction: column;
+  }
+
+
+
 .container-faq {
     margin-bottom: 100px;
     margin-left: 100px;
@@ -257,7 +365,6 @@ img {
     padding: 20px;
     font-size: 85%;
 }
-
 
 
 footer {
