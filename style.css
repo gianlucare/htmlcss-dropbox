@@ -350,6 +350,47 @@ img {
     flex-direction: column;
   }
 
+  .pr-gratuita {
+    padding: 80px 0;
+    background-color: rgb(128, 178, 233);
+  }
+  
+  .pr-gratuita h2 {
+    font-size: 32px;
+    color: #7e2343;
+    margin-left: 25%;
+  }
+  
+  .pr-gratuita .row {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pr-gratuita .second {
+    border: none;
+    margin-left: 70%;
+  }
+
+  .button-white2 {
+    text-decoration: none;
+    font: bold 12px arial;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: black;
+    border: solid 1px #515151;
+    background-color: #ffffff;
+    margin-left: 60%;
+    border-color: white;
+}
+
+
+
+
+.question {
+    padding: 60px 0;
+}
 
 
 .container-faq {
@@ -396,3 +437,13 @@ footer {
 .nav-footer a {
     color:white;
 }
+
+footer hr {
+    margin: 35px 0 30px 0;
+  }
+  
+  .language.row {
+    color: #999999;
+    gap: 10px;
+    align-items: center;
+  }
